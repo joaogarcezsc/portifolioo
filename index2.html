@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Manoel</title>
+    <link rel="shortcut icon" href="img/JM.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+
+        <!--Início Nav-Bar-->
+
+        <nav class="nav-bar">
+
+            <div class="nome">
+
+                <h1>João Manoel</h1>
+
+            </div>
+
+            <div class="nav-list">
+
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index1.html" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="index2.html" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="index3.html" class="nav-link">Contato</a></li>
+                </ul>
+
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+
+        </nav>
+
+        <div class="mobile-menu">
+
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index1.html" class="nav-link">Sobre Mim</a></li>
+                <li class="nav-item"><a href="index2.html" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="index3.html" class="nav-link">Contato</a></li>
+            </ul>
+
+
+        </div>
+
+        <!--Fim Nav-Bar-->
+
+    </header>
+
+
+    <!--Início Projetos-->
+
+    <main>
+
+        <div class="projetos">
+
+            <div class="descrição2">
+
+                <h4 class="h4">Conheça meus</h4>
+                <h1 class="h1">Projetos</h1><br>
+                <span class="span">Entre programação e campanhas de marketing.<br>
+                    Tenhos muitos serviços dentro da área digital <br>
+                    para contribuir com o seu negócio.
+                </span>
+
+                <br><br><a href="index1.html" class="slide-button">Saiba Mais</a>
+
+            </div>
+
+            <div>
+
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="img/Calculadora (3).png" alt="Imagem 1">
+                            <a href="https://github.com/joaogarcezsc/Calculadoraaa" class="slide-button">Visualize</a>
+                        </div>
+                        <div class="slide">
+                            <img src="img/Calculadora (1)/1.png" alt="Imagem 2">
+                            <a href="https://github.com/joaogarcezsc/BELLAMASSAS" class="slide-button">Visualize</a>
+                        </div>
+                        <div class="slide">
+                            <img src="img/Calculadora (1)/2.png" alt="Imagem 3">
+                            <a href="https://www.instagram.com/joaogarcezsc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                class="slide-button">Visualize</a>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="footerdiv">
+
+        <footer>
+
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>João Manoel</h1>
+                    <p>Estudante de programação e marketing.</p>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer_link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer_link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer_link" id="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <ul class="footer-list">
+                        <li>
+                            <br>
+                            <h3>Blog</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Sistemas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Tráfego</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <br>
+                            <h3>Produtos</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Desenvolvimento</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Designe</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Filmagem</a>
+                        </li>
+                    </ul>
+
+                    <div id="footer_subscribe">
+                        <br>
+                        <h3>Contato</h3>
+
+                        <p>
+                            Entre em contato comigo
+                        </p>
+
+                        <div id="input_group">
+                            <input type="email" id="email">
+                            <a href="index3.html">
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2024 all rights reservet
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

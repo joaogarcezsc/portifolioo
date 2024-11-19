@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Manoel</title>
+    <link rel="shortcut icon" href="img/JM.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+
+        <!--Início Nav-Bar-->
+
+        <nav class="nav-bar">
+
+            <div class="nome">
+
+                <h1>João Manoel</h1>
+
+            </div>
+
+            <div class="nav-list">
+
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index1.html" class="nav-link">Sobre Mim</a></li>
+                    <li class="nav-item"><a href="index2.html" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="index3.html" class="nav-link">Contato</a></li>
+                </ul>
+
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
+            </div>
+
+        </nav>
+
+        <div class="mobile-menu">
+
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index1.html" class="nav-link">Sobre Mim</a></li>
+                <li class="nav-item"><a href="index2.html" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="index3.html" class="nav-link">Contato</a></li>
+            </ul>
+
+
+        </div>
+
+        <!--Fim Nav-Bar-->
+
+    </header>
+
+    <div class="descrição">
+
+        <h4 class="h4">Entre em</h4>
+        <h1 class="h1">Contato !</h1><br>
+        <span class="span">Por E-mail ou por WhatsApp.<br>
+            Escreva aqui embaixo sua ideia de projeto <br>
+            que te darei um retorno.
+        </span>
+
+        <br><br><a href="https://www.instagram.com/joaomanoelcg?igsh=MWJ0Zmc4ZTh5Zm5paA=="
+            class="slide-button">instagram</a>
+
+    </div>
+
+    <div class="img">
+
+        <img class="perfil" src="img/foto de perfil.png">
+
+    </div>
+
+    <div class="formulario">
+
+        <h1>Enviar para E-mail</h1><br>
+
+        <form action="https://formsubmit.co/im0rale2023@gmail.com" method="POST">
+            <label for="email">E-mail</label>
+            <input class="input" type="email" name="email" id="email" required>
+            <label for="message">Mensagem</label>
+            <input class="text" type="text" name="message" id="message" required>
+            <main class="home">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/PROJETOS/PORTIF%C3%93LIO/thanks.html">
+                <button class="submit" type="submit">Enviar</button>
+
+        </form>
+
+    </div>
+
+    <div class="formulario2">
+
+        <form>
+
+            <h1>Enviar para WhatsApp</h1>
+
+            <label for="nombres">Nome</label>
+            <input class="input" type="text" name="" id="nombres" autocomplete="off" required>
+
+
+            <label for="apellidos">Sobrenome</label>
+            <input class="input" type="text" name="" id="apellidos" autocomplete="off" required>
+
+            <label for="mensaje">Mensagem</label>
+            <input class="text" type="text" name="" id="mensaje" cols="30" rows="10" required>
+
+            <button class="button" type="submit" onclick="enviarFormulario()">Enviar</button>
+
+
+
+        </form>
+
+    </div>
+
+    <div class="footerdiv">
+
+        <footer>
+
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>João Manoel</h1>
+                    <p>Estudante de programação e marketing.</p>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer_link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="footer_link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="footer_link" id="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <ul class="footer-list">
+                        <li>
+                            <br>
+                            <h3>Blog</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Sistemas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Tráfego</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer-list">
+                        <li>
+                            <br>
+                            <h3>Produtos</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Desenvolvimento</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Designe</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Filmagem</a>
+                        </li>
+                    </ul>
+
+                    <div id="footer_subscribe">
+                        <br>
+                        <h3>Contato</h3>
+
+                        <p>
+                            Entre em contato comigo
+                        </p>
+
+                        <div id="input_group">
+                            <input type="email" id="email">
+                            <a href="index3.html">
+                                <i class="fa-regular fa-envelope"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2024 all rights reservet
+            </div>
+
+        </footer>
+
+    </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
